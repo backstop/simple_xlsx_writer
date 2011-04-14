@@ -122,9 +122,11 @@ ends
       f.puts <<-ends
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
-<numFmts count="7">
+<numFmts count="4">
   <numFmt formatCode="GENERAL" numFmtId="164"/>
   <numFmt formatCode="&quot;TRUE&quot;;&quot;TRUE&quot;;&quot;FALSE&quot;" numFmtId="170"/>
+  <numFmt formatCode="mmmm\ yyyy" numFmtId="165"/>
+  <numFmt formatCode="0.00%" numFmtId="166"/>
 </numFmts>
 <fonts count="5">
   <font><name val="Mangal"/><family val="2"/><sz val="10"/></font>
@@ -165,7 +167,7 @@ ends
   <xf applyAlignment="false" applyBorder="false" applyFont="true" applyProtection="false" borderId="0" fillId="0" fontId="1" numFmtId="42"></xf>
   <xf applyAlignment="false" applyBorder="false" applyFont="true" applyProtection="false" borderId="0" fillId="0" fontId="1" numFmtId="9"></xf>
   </cellStyleXfs>
-<cellXfs count="7">
+<cellXfs count="9">
   <xf applyAlignment="false" applyBorder="false" applyFont="false" applyProtection="false" borderId="0" fillId="0" fontId="4" numFmtId="164" xfId="0"></xf>
   <xf applyAlignment="false" applyBorder="false" applyFont="true" applyProtection="false" borderId="0" fillId="0" fontId="4" numFmtId="22" xfId="0"></xf>
   <xf applyAlignment="false" applyBorder="false" applyFont="true" applyProtection="false" borderId="0" fillId="0" fontId="4" numFmtId="15" xfId="0"></xf>
@@ -173,6 +175,8 @@ ends
   <xf applyAlignment="false" applyBorder="false" applyFont="false" applyProtection="false" borderId="0" fillId="0" fontId="4" numFmtId="2" xfId="0"></xf>
   <xf applyAlignment="false" applyBorder="false" applyFont="true" applyProtection="false" borderId="0" fillId="0" fontId="4" numFmtId="49" xfId="0"></xf>
   <xf applyAlignment="false" applyBorder="false" applyFont="false" applyProtection="false" borderId="0" fillId="0" fontId="4" numFmtId="170" xfId="0"></xf>
+  <xf applyAlignment="false" applyBorder="false" applyFont="false" applyProtection="false" borderId="0" fillId="0" fontId="4" numFmtId="165" xfId="0"></xf>
+  <xf applyAlignment="false" applyBorder="false" applyFont="false" applyProtection="false" borderId="0" fillId="0" fontId="4" numFmtId="166" xfId="0"></xf>
 </cellXfs>
 <cellStyles count="6"><cellStyle builtinId="0" customBuiltin="false" name="Normal" xfId="0"/>
   <cellStyle builtinId="3" customBuiltin="false" name="Comma" xfId="15"/>
